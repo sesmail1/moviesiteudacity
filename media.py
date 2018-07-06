@@ -1,6 +1,8 @@
 class Movie():
+    # This class instantiates a movie
     def __init__(self, movie_title,movie_storyline, poster_image,
-        trailer_youtube):
+                trailer_youtube):
+        # This constructor method instantiates the instance variables of the movie
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
